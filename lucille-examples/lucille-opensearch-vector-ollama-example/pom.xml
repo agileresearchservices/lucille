@@ -12,9 +12,9 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>lucille-joining-db-connector-example</artifactId>
+  <artifactId>lucille-opensearch-vector-ollama-example</artifactId>
   <packaging>jar</packaging>
-  <name>Lucille Examples: Joining Database Connector Ingest Example</name>
+  <name>Lucille Examples: OpenSearch Vector Ollama Example</name>
 
   <dependencyManagement>
     <dependencies>
@@ -71,7 +71,7 @@
               <goal>single</goal>
             </goals>
             <configuration>
-              <finalName>lucille-opensearch-vector-local-example</finalName>
+              <finalName>lucille-opensearch-vector-ollama-example</finalName>
               <descriptors>
                 <descriptor>assembly/assembly.xml</descriptor>
               </descriptors>
